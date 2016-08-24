@@ -25,7 +25,7 @@ class svm(classifier):
     classdocs
     '''
 
-
+    classifierName = 'Support Vector Machine'
     C = 1.0
     k = 'linear'  #linear kernel
     max_iter = -1

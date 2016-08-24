@@ -26,6 +26,7 @@ class adaBoost(classifier):
     '''
     classdocs
     '''
+    classifierName = 'Adaboost'
     n_estimators=20
 
     def __init__(self, X, y):

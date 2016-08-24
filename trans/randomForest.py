@@ -25,7 +25,7 @@ from sklearn.metrics import f1_score, recall_score
 
 class RandomForest(classifier):
     
-    
+    classifierName = 'Random Forest'
     n_estimators=20
       
     

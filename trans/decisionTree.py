@@ -25,7 +25,7 @@ from sklearn import tree
 
 class decisionTree(classifier):
     
-    
+    classifierName = 'Decision Tree'
     n_estimators=20
       
     
