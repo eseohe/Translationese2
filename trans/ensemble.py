@@ -23,7 +23,7 @@ from sklearn.metrics import f1_score, recall_score
 from sklearn import tree
 
 
-class decisionTree(classifier):
+class ensemble(classifier):
     
     classifierName = 'Ensemble'
     listOfClassifiers = []
